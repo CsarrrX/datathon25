@@ -1,3 +1,9 @@
-# Datathon 25
-Este es un repositorio para todo lo relacionado al datathon organizado por la mesa de ciencias de datos de la Universidad de las Americas Puebla en 2025. El repo contiene no solo la implementación de los modelos, sino también notas, tests con otros modelos, etc...
+# datathon25
 
+Este repositorio es un esfuerzo colaborativo abierto a quienes deseen participar y aprender.
+
+Aquí encontrarás:
+- **Implementación principal del modelo** en la carpeta `modelo_principal`.
+- **Notas muy simples** sobre el proceso de aprendizaje y desarrollo en la carpeta `notas`.
+
+La estructura está diseñada para ser sencilla y fácil de entender. Siéntete libre de contribuir con mejoras, notas o cualquier aporte útil para el equipo y la comunidad.
