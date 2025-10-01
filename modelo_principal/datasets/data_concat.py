@@ -1,11 +1,5 @@
 import pandas as pd
 
-# El archivo está en la subcarpeta 'data'
-ruta_dataset = "03_IBD_GTstudentproject_test.csv"
-
-try:
-    df = pd.read_csv(ruta_dataset)
-    print("Archivo leído exitosamente.")
-    print(df.head()) # Muestra las primeras 5 filas del DataFrame
-except FileNotFoundError:
-    print(f"Error: El archivo '{ruta_dataset}' no se encontró.")
+df_train = pd.read_csv("modelo_principal/datasets/datathon_datasets_original/03_IBD_GTstudentproject_train.csv")
+df_test = pd.read_csv("modelo_principal/datasets/datathon_datasets_original/03_IBD_GTstudentproject_test.csv")
+print(df_train.head())
